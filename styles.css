@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffe6f0;
+  padding: 30px;
+  color: #880e4f;
+}
+
+h2 {
+  color: #ad1457;
+  margin-bottom: 15px;
+}
+
+#mensaje {
+  display: none;
+  background-color: #f8bbd0;
+  padding: 10px;
+  border: 1px solid #ec407a;
+  border-radius: 8px;
+  color: #880e4f;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #f48fb1;
+  border-radius: 6px;
+  background-color: #fff0f5;
+  color: #880e4f;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 6px;
+  background-color: #f06292;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ec407a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #fff0f5;
+  border: 1px solid #f8bbd0;
+  padding: 12px;
+  margin: 6px 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #880e4f;
+}
+
+.completada {
+  text-decoration: line-through;
+  color: #c2185b;
+}
+
+.acciones button {
+  margin-left: 6px;
+  font-size: 14px;
+  background-color: #f48fb1;
+}
+
+.acciones button:hover {
+  background-color: #d81b60;
+}
